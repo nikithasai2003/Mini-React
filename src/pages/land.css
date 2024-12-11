@@ -1,0 +1,82 @@
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(1); 
+}
+
+.historyContainer {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.historyContainer h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.historyList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.historyItem {
+  font-size: 1.1rem;
+  color: #555;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.noHistory {
+  font-size: 1rem;
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
+}
